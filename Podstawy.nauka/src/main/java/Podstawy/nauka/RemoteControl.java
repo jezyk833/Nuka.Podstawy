@@ -68,43 +68,43 @@ public class RemoteControl {
 			case "MUTE": volume=0; System.out.println("BRAK DŹWIĘKU"); break;
 			case "1": 
 				channel=1;
-				System.out.println("TVP1");
+				System.out.println(tab[0]);
 				break;
 			case "2":
 				channel=2;
-				System.out.println("TVN");
+				System.out.println(tab[1]);
 				break;
 			case "3": 
 				channel=3;
-				System.out.println("POLSAT");
+				System.out.println(tab[2]);
 				break;
 			case "4": 
 				channel=4;
-				System.out.println("PULS");
+				System.out.println(tab[3]);
 				break;
 			case "5": 
 				channel=5;
-				System.out.println("MTV");
+				System.out.println(tab[4]);
 				break;
 			case "6":
 				channel=6;
-				System.out.println("CANAL+");
+				System.out.println(tab[5]);
 				break;
 			case "7": 
 				channel=7;
-				System.out.println("HBO");
+				System.out.println(tab[6]);
 				break;
 			case "8": 
 				channel=8;
-				System.out.println("DISCOVERY");
+				System.out.println(tab[7]);
 				break;
 			case "9": 
 				channel=9;
-				System.out.println("DOMO");
+				System.out.println(tab[8]);
 				break;
 			case "10": 
 				channel=10;
-				System.out.println("MINIMINI");
+				System.out.println(tab[9]);
 				break;
 			case "LIST":System.out.println("KANAŁ 1 - "+tab[0]+" \n"+
 										   "KANAŁ 2 - "+tab[1]+" \n"+
